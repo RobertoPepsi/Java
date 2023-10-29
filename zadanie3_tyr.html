@@ -3,14 +3,16 @@
  <title>Tyraj 3K</title>
  <script language="JavaScript">
  function WinOpen_tyraj()
- {
-window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=900,width=500,top=200,left=200");
- }
+ {window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=900,width=500,top=200,left=200"); }
+  
+   function okno_zamknij()
+                {window.close()}
  </script>
  </head>
 <body>
  <form>
  <input type="button" name="zadanie3" value="zadanie3-Tyraj" onclick="WinOpen_tyraj(' ')">
+  <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
  </form>
 </body>
 </html>
