@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   <input type="button" name="tyraj" value="Oblicz" onclick="fun_tyr()" />
+   <script>
+    function fun_tyr(){
+       var liczba=prompt("Podaj liczbę","");
+       var x_tyr=parseFloat(liczba);
+       if(x_tyr % 2 === 0){
+           document.write('<p style=\"color:red; size: 3;\">Liczba jest parzysta</p></br>');
+       }
+       else{
+               
+           document.write('<p style=\"color:silver; size: 5;\">Liczba jest nie parzysta</p></br>');
+           }
+       
+    }
+   </script>
+</body>
+</html>
