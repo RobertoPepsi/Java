@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" name="tyraj" value="Oblicz" onclick="fun_tyr()" />
+   <script>
+    function fun_tyr(){
+       var liczba=prompt("Podaj liczbę","");
+       var x_tyr=parseFloat(liczba);
+       if(x_tyr == 1995){
+           document.write('wczytany rok'+x_tyr+'</br>');
+        document.write('<p style=\"color:blue; size: 4;\">Brawo, znasz rok od kiedy działa JavaScript</p></br>');
+       }
+       else{
+        document.write('wczytany rok '+x_tyr+'</br>');
+           document.write('<p style=\"color:red; size: 7;\">Źle, musisz jeszcze poczytać</p></br>');
+           }
+       
+    }
+   </script>
+</body>
+</html>
